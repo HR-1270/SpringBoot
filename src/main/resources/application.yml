@@ -1,0 +1,14 @@
+spring:
+  # 关闭thymleaf的缓存
+  thymeleaf:
+    cache: false
+  # 配置国际化相关的消息转换
+  messages:
+    basename: i18n.login
+  datasource:
+    url: jdbc:mysql://localhost:3306/SpringBoot?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 200028
+    driver-class-name: com.mysql.jdbc.Driver
+
+
